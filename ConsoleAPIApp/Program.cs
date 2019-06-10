@@ -1,4 +1,5 @@
-﻿using ConsoleAPIApp.Repositories;
+﻿using ConsoleAPIApp.Model;
+using ConsoleAPIApp.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,12 @@ namespace ConsoleAPIApp
     {
         static void Main(string[] args)
         {
+            // Getting connection string and details
+            SettingsModel settings = new SettingsModel();
+
             // Calling the method
             RoadRepository methods = new RoadRepository();
-            methods.roadStatus(args.FirstOrDefault());
+            methods.roadStatus(args.FirstOrDefault(), settings);
             Console.WriteLine("Press any key to exit... ");
             Console.ReadLine();
         }

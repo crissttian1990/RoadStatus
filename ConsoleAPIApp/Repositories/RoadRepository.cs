@@ -10,11 +10,8 @@ namespace ConsoleAPIApp.Repositories
 {
     public class RoadRepository
     {
-        public void roadStatus(string roadName)
+        public bool roadStatus(string roadName, SettingsModel settings)
         {
-            // Getting connection string and details
-            SettingsModel settings = new SettingsModel();
-
             // Makning API request (GET)
             ResponseModel response = new ResponseModel();
             response = Utilities.API.sendGetRequest(roadName, settings.url, settings.appId, settings.developerKey).Result;
@@ -35,10 +32,12 @@ namespace ConsoleAPIApp.Repositories
                 Console.WriteLine("The status of the " + roadName + " is as follows ");
                 Console.WriteLine("Road Status: " + status);
                 Console.WriteLine("Road Status Description: " + description);
+                return true;
             }
             else
             {
                 Console.WriteLine(roadName + " is not a valid road");
+                return false;
             }
         }
     }
