@@ -1,0 +1,10 @@
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\bin\Debug\ConsoleAPIApp.exe.config
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\bin\Debug\ConsoleAPIApp.exe
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\bin\Debug\ConsoleAPIApp.pdb
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\obj\Debug\ConsoleAPIApp.csprojAssemblyReference.cache
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\obj\Debug\ConsoleAPIApp.csproj.CoreCompileInputs.cache
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\obj\Debug\ConsoleAPIApp.exe
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\obj\Debug\ConsoleAPIApp.pdb
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\bin\Debug\Newtonsoft.Json.dll
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\bin\Debug\Newtonsoft.Json.xml
+c:\users\cristian.fernandez\source\repos\ConsoleAPIApp\ConsoleAPIApp\obj\Debug\ConsoleAPIApp.csproj.CopyComplete
