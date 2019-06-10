@@ -1,6 +1,19 @@
-# RoadStatus
-
 # How was built
+This console app was written in c# using .NET framework.
+
+The project contains:
+
+Models
+Settings model file (to store the credentials) and response model file (to store the json response and http status).
+
+Utilities
+API class, where the get method to call the API is stored.
+
+RoadRepository
+It's the file where is stored the main method that calls the API and returns the display, it also returns true or false depending if the call was successful or not.
+
+Program.cs
+It contais the declaration of RoadRepository and calls the method passing the first parameter (see example below). The method in RoadRepository is in charge of displaying the data. At the end of this method includes Console.ReadLine() instruction for not closing the window until the user press a random key.
 
 
 # Output
