@@ -4,18 +4,30 @@
 
 
 # Output
-Execute on powershell:
-PS C:\&gt; .\RoadStatus.exe A2
-Output:
-The status of the A2 is as follows
-Road Status is Good
-Road Status Description is No Exceptional Delays
-Press any key to exit...
 
 Execute on powershell:
-PS C:\&gt; .\RoadStatus.exe A233
+
+PS C:\> .\RoadStatus.exe A2
+
 Output:
+
+The status of the A2 is as follows
+
+Road Status is Good
+
+Road Status Description is No Exceptional Delays
+
+Press any key to exit...
+
+
+Execute on powershell:
+
+PS C:\> .\RoadStatus.exe A233
+
+Output:
+
 A233 is not a valid road
+
 Press any key to exit...
 
 # Set up credentials
